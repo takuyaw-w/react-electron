@@ -10,7 +10,7 @@ Development commands.
 
 ### `npm run electron:build`
 
-Production　commands.
+Production commands.
 
 ### `npm start`
 
