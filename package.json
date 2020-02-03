@@ -23,7 +23,7 @@
   "main": "build/electron/main.js",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
-    "electron:dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && tsc -p electron -w\" \"wait-on http://localhost:3000 && tsc -p electron && electron .\"",
+    "electron:serve": "concurrently \"npm start\" \"wait-on http://localhost:3000 && tsc -p electron -w\" \"wait-on http://localhost:3000 && tsc -p electron && electron .\"",
     "electron:build": "npm run build && tsc -p electron && electron-builder",
     "start": "react-scripts start",
     "build": "react-scripts build",
